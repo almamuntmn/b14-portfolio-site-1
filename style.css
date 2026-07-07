@@ -124,3 +124,36 @@ nav ul li a {
     display: flex;
     gap: 20px;
 }
+
+/* About */
+#about{
+    max-width: 1000px;
+    margin: 130px auto;
+    padding: 150px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-text{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #474747;
+}
+
+.about-text h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
