@@ -358,3 +358,165 @@ textarea {
     border: none;
     border-radius: 5px;
 }
+
+
+
+
+/* ===========================
+   Medium Devices (Tablets)
+=========================== */
+@media screen and (max-width: 992px) {
+
+    .container,
+    .resume,
+    .my-works,
+    .footer,
+    .what-i-do {
+        width: 90%;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .btn-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .developer {
+        display: none;
+    }
+
+    .skill-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ed-ex {
+        flex-direction: column;
+    }
+
+    .pictures {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "one two"
+            "three four"
+            "five six";
+        grid-auto-rows: 250px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #about {
+        padding: 80px 40px;
+    }
+}
+
+/* ===========================
+   Small Devices (Mobile)
+=========================== */
+@media screen and (max-width: 576px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 0;
+        gap: 20px;
+    }
+
+    #hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text h2 {
+        font-size: 30px;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary-btn,
+    .outline-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .developer {
+        display: none;
+    }
+
+    #hero-section {
+        background-image: none;
+    }
+
+    #about {
+        margin: 60px 20px;
+        padding: 40px 20px;
+    }
+
+    .about-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
+    }
+
+    .pictures img {
+        height: 250px;
+    }
+
+    .ed-ex {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
