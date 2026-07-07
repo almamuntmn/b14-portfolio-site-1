@@ -174,11 +174,12 @@ nav ul li a {
     max-width: 800px;
 }
 
-.skill-texts h2{
+.skill-texts h2 {
     font-size: 35px;
     margin-bottom: 15px;
 }
-.skill-texts p{
+
+.skill-texts p {
     font-size: 18px;
     color: #757575;
 }
@@ -198,98 +199,160 @@ nav ul li a {
     gap: 20px;
 }
 
-.skill-card img{
+.skill-card img {
     max-width: 44px;
 }
-.skill-card h3{
+
+.skill-card h3 {
     font-size: 20px;
 }
-.skill-card p{
+
+.skill-card p {
     font-size: 16px;
     color: #757575;
 }
 
 /* resume */
 
-.resume{
+.resume {
     max-width: 1000px;
     margin: 100px auto;
 }
 
-resume br{
+resume br {
     color: #757575;
 }
 
-.ed-ex{
+.ed-ex {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     gap: 40px
 }
 
-.education, .experience{
+.education,
+.experience {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.education p, .experience p{
+
+.education p,
+.experience p {
     font-size: 14px;
     color: #757575;
 }
-.education h3, .experience h3{
+
+.education h3,
+.experience h3 {
     font-size: 20px;
 }
 
-.edu-card{
+.edu-card {
     display: flex;
     flex-direction: column;
-    gap:10px
+    gap: 10px
 }
 
-.cv-btn{
+.cv-btn {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-/* footer */
-footer{
-    background-color: #FFF8F3;
+/* My-works */
+
+.my-works {
+    max-width: 1000px;
+    margin: auto;
 }
 
-.footer{
+.my-works h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pictures {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas:
+        "one two three"
+        "four two six"
+        "four five six";
+}
+
+.pictures img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1 {
+    grid-area: one;
+}
+
+.box-2 {
+    grid-area: two;
+}
+
+.box-3 {
+    grid-area: three;
+}
+
+.box-4 {
+    grid-area: four;
+}
+
+.box-5 {
+    grid-area: five;
+}
+
+.box-6 {
+    grid-area: six;
+}
+
+/* footer */
+footer {
+    background-color: #FFF8F3;
+    margin-top: 80px;
+}
+
+.footer {
     max-width: 1000px;
     margin: auto;
     display: flex;
-    gap:100px;
+    gap: 100px;
     padding: 50px 0px;
 }
 
-.footer-left{
+.footer-left {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-left p{
+.footer-left p {
     color: #757575;
     margin-top: 10px;
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 
-.input-box{
+.input-box {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.input-box input, textarea{
+.input-box input,
+textarea {
     padding: 10px 20px;
     width: 400px;
     border: none;
