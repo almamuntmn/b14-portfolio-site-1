@@ -213,7 +213,11 @@ nav ul li a {
 
 .resume{
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 100px auto;
+}
+
+resume br{
+    color: #757575;
 }
 
 .ed-ex{
@@ -246,4 +250,48 @@ nav ul li a {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+/* footer */
+footer{
+    background-color: #FFF8F3;
+}
+
+.footer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap:100px;
+    padding: 50px 0px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-left p{
+    color: #757575;
+    margin-top: 10px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box input, textarea{
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
 }
