@@ -208,3 +208,42 @@ nav ul li a {
     font-size: 16px;
     color: #757575;
 }
+
+/* resume */
+
+.resume{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.ed-ex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px
+}
+
+.education, .experience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.education p, .experience p{
+    font-size: 14px;
+    color: #757575;
+}
+.education h3, .experience h3{
+    font-size: 20px;
+}
+
+.edu-card{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.cv-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
