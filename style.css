@@ -126,7 +126,7 @@ nav ul li a {
 }
 
 /* About */
-#about{
+#about {
     max-width: 1000px;
     margin: 130px auto;
     padding: 150px 150px;
@@ -138,22 +138,73 @@ nav ul li a {
     text-align: center;
 }
 
-.about-text{
+.about-text {
     padding-bottom: 20px;
     border-bottom: 1px solid #474747;
 }
 
-.about-text h3{
+.about-text h3 {
     font-size: 35px;
     margin-bottom: 20px;
 }
-.about-text p{
+
+.about-text p {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
 }
 
-.about-info{
+.about-info {
     display: flex;
     justify-content: space-around;
+}
+
+/* what-i-do */
+.what-i-do {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-texts {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+.skill-texts h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.skill-texts p{
+    font-size: 18px;
+    color: #757575;
+}
+
+.skill-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.skill-card {
+    padding: 20px;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-card img{
+    max-width: 44px;
+}
+.skill-card h3{
+    font-size: 20px;
+}
+.skill-card p{
+    font-size: 16px;
+    color: #757575;
 }
